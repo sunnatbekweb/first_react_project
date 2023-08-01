@@ -1,0 +1,343 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ----------------------- Header start ---------------------- */
+
+header {
+  width: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+  border-bottom: 1px solid silver;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.nav_logo {
+  text-decoration: none;
+}
+
+.nav_list {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.nav_link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* -------------------------- Header end --------------------- */
+
+/* --------------------------- Intro start ---------------------- */
+
+#intro {
+  margin: 60px 0;
+}
+
+.intro_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.ill {
+  color: #999;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.intro_4xl {
+  font-family: Tenor Sans;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin: 18px 0 27px 0;
+}
+
+.intro_md {
+  color: #666;
+  font-family: 'Source Serif 4', serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+
+.author_name {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* --------------------------- Intro section end ---------------------- */
+
+/* -------------------------- Frame1 section end ----------------------- */
+
+#frames1 {
+  margin-bottom: 65px;
+}
+
+.f1_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 74px;
+}
+
+.card_body {
+  width: 375px;
+  margin-top: 20px;
+}
+
+.card_xs {
+  color: #999;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card_2xl {
+  height: 120px;
+  font-family: Tenor Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+
+.card_author {
+  color: #000;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ------------------------- Frame 1 section end ---------------------- */
+
+/* -------------------------- Latest posts start ------------------------- */
+
+#latest_posts {
+  margin: 90px 0;
+}
+
+h5 {
+  color: #999;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.latest_p_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 74px;
+}
+
+.card_body_post {
+  width: 285px;
+}
+
+.p-card_2xl {
+  height: 120px;
+  font-family: Tenor Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+
+}
+
+.btn_w {
+  display: flex;
+  justify-content: center;
+}
+
+.view_all {
+  border: 1px solid #000;
+  background: #FFF;
+  padding: 21px 26px;
+  color: #000;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 90px 0 0 0;
+  cursor: pointer;
+}
+
+.view_all:hover {
+  background-color: #000000;
+  color: #FFF;
+}
+
+/* -------------------------- Latest posts end ------------------------- */
+
+/* -------------------------- Featured posts start -------------------------- */
+
+#f_posts {
+  margin: 90px 0 65px 0;
+}
+
+.f_card_2xl {
+  width: 570px;
+  height: 120px;
+  font-family: Tenor Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+
+/* -------------------------- Featurd posts end  ----------------------------*/
+
+/* -------------------------- Footer start ----------------------- */
+
+footer {
+  width: 100%;
+  background: #141414;
+  padding: 90px 0;
+}
+
+.f_header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.footer_logo {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.copywright {
+  color: #666;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+
+.f_double {
+  display: flex;
+  gap: 865px;
+}
+
+.f_body1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.c1 {
+  margin-bottom: 20px;
+}
+
+.category {
+  color: #666;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.f_w1 {
+  display: flex;
+  align-items: center;
+}
+
+.f_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 110px;
+  list-style-type: none;
+}
+
+.f_link {
+  color: #FFF;
+  font-family: Libre Franklin;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+input {
+  padding: 18px 24px;
+}
+
+.f_body2 {
+  margin-top: 70px;
+  display: flex;
+}
+
+.f_list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  margin-right: 130px;
+}
+
+/* -------------------------- Footer end -------------------------- */
